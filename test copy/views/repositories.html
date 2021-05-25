@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style type="text/css">
+	a{margin-left: 20px; text-decoration: none;}
+	a:hover{text-decoration: underline;}
+    </style>
+  </head>
+  <body>
+  <h1>Your name:   <%- user.name %></h1>
+    <p> 这里是题库，选择你想做的题吧 </p>
+
+    <p>选题（用复选框，然后给到下面的提交</p>
+
+    <p>所选题目：</p>
+    
+    <p><a href="home/submit">提交答案</a></p>
+    <p><a href="/logout">我要注销 </a>
+    </p>
+
+  </body>
+</html>

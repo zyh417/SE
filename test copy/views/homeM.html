@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style type="text/css">
+	a{margin-left: 20px; text-decoration: none;}
+	a:hover{text-decoration: underline;}
+    </style>
+  </head>
+  <body>
+  <h1>欢迎面试官:   <%- user.name %></h1>
+  <p> 请出题</p>
+  <p>题目信息（改成输入框）</p>
+  <p>例：输入（改输入框）</p>
+  <p>例：输出（改输入框）</p>
+  <p>目标用户（改成输入/列表）</p>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-block" id="submitItem">上传问题</button>
+   </div>  
+   <!-- 要考虑交付的用户id -->
+    <p><a href="/logout">我要注销 </a>
+    </p>
+  </body>
+</html>

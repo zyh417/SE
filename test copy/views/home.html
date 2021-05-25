@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style type="text/css">
+	a{margin-left: 20px; text-decoration: none;}
+	a:hover{text-decoration: underline;}
+    </style>
+  </head>
+  <body>
+  <h1>欢迎用户: <%- user.name %></h1>
+    <p>欢迎登陆在线答题系统</p>
+
+    <p>面试官要求的题目是：</p>
+
+    <p>题目信息：</p>
+    <p><a href="/home/submit">提交答案</a></p>
+
+    <p><a href="/home/repositories"> 查看题库 </a></p>
+    <p><a href="/logout">我要注销 </a>
+    </p>
+
+
+
+  </body>
+</html>
